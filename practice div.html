@@ -1,0 +1,72 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Document</title>
+	<style>
+		ul{
+            list-style-type: none;
+            margin: 10px 250px 0 250px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #b8afaf;
+            text-align: center;     
+    }
+    li {
+        
+        display: inline;
+        padding: 0px 10px;
+        
+    }
+
+    li a{
+        
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #555;
+        color: azure;
+/*
+    }
+    img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+*/
+
+    * {
+        box-sizing: border-box;
+    }
+    .column{
+        float: left;
+        width: 33.33%;
+        padding: 2px;
+    }
+    .row::after{
+        content:"";
+        clear: both;
+        display: table;
+    }
+
+	</style>
+</head>
+<body bgcolor="#ffd4b9">
+    <h3>Navigation Bar</h3>
+
+    <ul>
+        <li><a href"#">Home</a></li> |
+        <li><a href"#">About</a></li> |
+        <li><a href"#">Careers</a></li> |
+        <li><a href"#">Contacts</a></li>
+    </ul>
+
+    <div class="row">
+	<div class="column"><img src="harrylang.jpg" style="width: 300px;"></div>
+    <div class="column"><img src="harrylang.jpg" style="width: 300px;"></div>
+    <div class="column"><img src="harrylang.jpg" style="width: 300px;"></div>
+	</div>
+</body>
+</html>
